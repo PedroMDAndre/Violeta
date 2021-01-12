@@ -10,8 +10,9 @@ public class Main {
 
     // This is simpler than it looks
 
-    private static int add(int a, int b) {
-        return a + b;
+
+    private static int add(int a, int b){
+        return a+b+4;
     }
 
 }
