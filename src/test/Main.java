@@ -6,6 +6,7 @@ public class Main {
         int a =5;
         int b = 10;
         System.out.println("Soma de a com b = " + add(a, b));
+        System.out.println("Divisão de " + a + " e " + b + " = " + div(a, b));
     }
 
     // This is simpler than it looks
@@ -16,6 +17,10 @@ public class Main {
     }
     private static int multi(int a, int b){
         return a*b;
+    }
+
+    private static int div(int a, int b) {
+        return a / b;
     }
 
 }
