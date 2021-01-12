@@ -12,7 +12,10 @@ public class Main {
 
 
     private static int add(int a, int b){
-        return a+b+4;
+        return a+b;
+    }
+    private static int multi(int a, int b){
+        return a*b;
     }
 
 }
