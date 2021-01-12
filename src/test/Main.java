@@ -8,8 +8,8 @@ public class Main {
         System.out.println("Soma de a com b = " + add(a, b));
     }
 
-    private static int add(int a, int b){
-        return 0;
+    private static int add(int a, int b) {
+        return a + b;
     }
 
 }
