@@ -7,6 +7,8 @@ public class Main {
         int b = 10;
         System.out.println("Soma de a com b = " + add(a, b));
         System.out.println("Divisão de " + a + " e " + b + " = " + div(a, b));
+        System.out.println("Subtracção de a com b = " + subtraction(a,b));
+        System.out.println("Multiplicação de a com b" + multi(a,b));
     }
 
     // This is simpler than it looks
